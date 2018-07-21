@@ -1,15 +1,7 @@
 
 
-matcherModel = {
-  init: function(size) {},
-};
 
 
-matcherView = {
-  init: function() {},
-  updateGameView: function() {},
-  addClickHandlers: function( fn, context ) {},
-};
 
 matcherController = {
   
