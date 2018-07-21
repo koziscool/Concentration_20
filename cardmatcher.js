@@ -1,21 +1,16 @@
 
 
-matcherController = {
-  init: function(size) {}
-};
-
-matcherView = {
-  updateGameView: function() {},
-};
 
 $(document).ready( function() {
+  console.log("koz");
   $("#grid-size").focus();
-  $("grid-size-button").click( function(e){
+  $("#grid-size-button").click( function(e){
     e.preventDefault();
+    console.log("tetris");
     var size = $("grid-size").val();
     matcherController.init(size);
     matcherView.updateGameView();
-    $("grid-size-form").hide();
+    $("#grid-size-form").hide();
   });
 });
   
